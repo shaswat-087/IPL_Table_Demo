@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> IPL Table 2026</title>
+</head>
+<body>
+ <table border="0">
+ <tr>
+ <th>Position</th>
+ <th>Team</th>
+ <th>Matches </th>
+ <th>Won </th>
+ <th>Lost </th>
+ <th>NR/T </th>
+ <th>Points </th>
+ <th>NRR </th>
+ </tr>
+ 
+    {%for t in standings%}
+    <tr style="background-color: {{ t.color.bg }}; color: {{ t.color.text }};">
+
+           <td>{{loop.index}}</td>
+           <td>{{ t.team }}</td>
+            <td>{{ t.played }}</td>
+            <td>{{ t.wins }}</td>
+            <td>{{ t.losses }}</td>
+            <td>{{ t.nr }}</td>
+            <td>{{ t.points }}</td>
+            <td>{{ t.nrr }}</td>
+        </tr>
+        {% endfor %}
+
+
+ </table>
+</body>
+</html>
