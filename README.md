@@ -17,7 +17,7 @@ and displays them in a styled, color-coded table.
 
 ## Run Locally
 pip install -r requirements.txt
-python app.py
+ipltable.py
 
 Then open http://127.0.0.1:5000
 
