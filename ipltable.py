@@ -81,7 +81,7 @@ def home():
     for t in standings:
      t["color"] = get_color(t["team"])
 
-    return render_template("Table.html", standings=standings)
+    return render_template("table.html", standings=standings)
 
 if __name__ == "__main__":
     app.run(debug=True)
