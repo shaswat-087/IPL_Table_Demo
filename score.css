@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;                
+  justify-content: space-between;
+  align-items: center;          
+
+}
+  
+
+
+.jiohotstar{
+   display: flex;
+   margin-top:20px;
+   margin-right: 25px;
+   justify-content: flex-end;
+   align-items: flex-end;
+   flex-direction: column;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   color: #cccccc8e;
+}
+
+.tata-ipl{
+  display: flex;
+  margin-top:25px;
+  margin-left: 25px;
+  width: fit-content;
+  height:110px;
+ 
+  
+ 
+}
+
+
+body{
+  background-image:url("https://staticg.sportskeeda.com/editor/2025/04/757e5-17460324856013-1920.jpg") ;
+  background-size: cover;
+
+}
+
+.scorecard{
+  display:flex;
+  width: cover;
+  
+  margin-top: 775px;
+  height:120px;
+  
+}
+
+.team1-logo img{
+  height:120px;
+  background-color: #ffea00;
+
+}
+
+.team1{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffea00;
+  justify-content: space-between;
+  width:500px;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+  height:65px;
+}
+
+.team1-name{
+  display: flex;
+  flex-direction: row;
+  align-content:center;
+  color: black;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-left:120px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.team1-score{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  color: #2d62de;
+  font-size: 57.5px;
+  margin-left: 35px;
+  margin-top: 2.5px;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.overs{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 40px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  color:black;
+
+}
+.row2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 15px;
+  font-style: calc();
+}
+.venue{
+  
+  margin-left: 50px;
+  font-size: 25px;
+ 
+  color: black;
+
+
+}
+
+.team2-name{
+  color: black;
+  font-size: 25px;
+  
+ 
+  margin-left: 120px;
+}
+
+.team1-bat{
+  display: flex;
+  flex-direction: column;
+  background-color:  #ffea00;
+  width: 400px;
+  justify-content: space-evenly;
+  border-left:solid white 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color:black;
+
+}
+
+.bat1,.bat2{
+
+  margin-left: 50px;
+  margin-top: 10px;
+  justify-content: space-between;
+  
+}
+
+.runs{
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffea00;
+  font-size: 35px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: space-evenly;
+
+}
+
+.balls{
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffea00;
+  font-size: 25px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: space-evenly;
+  border-right: solid white;
+}
+
+.run-rate{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+  background: linear-gradient(135deg, #000000, #5d5d5d);
+  color: white;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.text{
+  font-size: 30px;
+  margin-top: 15px;
+
+}
+.value{
+  font-size:45px;
+  margin-top: 5px;
+}
+.team2{
+  display: flex;
+  
+  background-color:  #DA1A32;
+  width: 500px;
+  
+  border-left:solid white 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+ 
+}
+
+.bowler-block {
+  display: flex;
+  flex-direction: column; 
+  gap: 5px; 
+  color: white;             
+}
+.bowler{
+  margin-left: 30px;
+  margin-top: 10px;
+  
+}
+
+.over-boxes{
+  margin-left: 30px;
+  
+  display: flex;
+  flex-direction: row;
+  gap:7px;
+  margin-top:5px;
+
+}
+
+.ball{
+  margin-top:5px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  height:30px;
+  width: 30px;
+  background-color: white;
+  
+  border-radius: 4px;
+  color: black;
+
+}
+
+.spell{
+  background-color:  #DA1A32;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  
+}
+
+.figure{
+  font-size:30px;
+  margin-top:10px;
+}
+
+.bowled{
+  font-size:20px;
+  margin-left:15px;
+  margin-top:20px;
+}
+
+.team2-logo img{
+      height:120px; background-color: #DA1A32; 
+}
+
+
+
+
